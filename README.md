@@ -1,1 +1,5 @@
 # Snake-Game
+
+The Snake Game in Python using Tkinter is a classic arcade game recreated as a graphical application. The player controls a snake that moves in a grid-like field, aiming to eat food items to grow longer. The game interface is built using Tkinter Canvas, which displays the snake, food, and game boundary. The snake's movement is controlled using arrow keys, with the logic implemented via event binding.
+
+As the game progresses, the snake grows longer, and the player must avoid collisions with the boundaries or the snake's own body. Food positions are generated randomly using the random module. The game loop is driven by the after() method, which updates the snake's position periodically. Game over is triggered when the snake collides with itself or the wall, showing a message to the player. This project demonstrates key concepts like GUI design, event handling, and logic programming.
